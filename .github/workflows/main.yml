@@ -21,10 +21,9 @@ jobs:
         with:
           node-version: '18'
 
-      # Navigate to the correct working directory for orange_hrm project
       - name: Install dependencies in orange_hrm
         run: npm install
-        working-directory: orange_hrm  # Set working directory to orange_hrm
+        working-directory: orange_hrm
 
       - name: Install Playwright Browsers in orange_hrm
         run: npx playwright install --with-deps
