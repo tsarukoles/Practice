@@ -1,0 +1,144 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\tsaru\\Desktop\\Practice-Projects\\Automation-Practice\\orange_hrm\\playwright.config.js",
+    "rootDir": "C:/Users/tsaru/Desktop/Practice-Projects/Automation-Practice/orange_hrm/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 1
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Automation-Practice/orange_hrm/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Automation-Practice/orange_hrm/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Automation-Practice/orange_hrm/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Automation-Practice/orange_hrm/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Automation-Practice/orange_hrm/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Automation-Practice/orange_hrm/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.48.2",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "candidates.create.spec.js",
+      "file": "candidates.create.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Create candidate",
+          "file": "candidates.create.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should successfully create candidate",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 17681,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-29T19:53:35.122Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5eb7a5aa0a691e1a437-cfedac5e2d2e9efc7ce0",
+              "file": "candidates.create.spec.js",
+              "line": 9,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-10-29T19:53:33.239Z",
+    "duration": 20050.273999999277,
+    "expected": 1,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

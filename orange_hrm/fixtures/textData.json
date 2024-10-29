@@ -1,0 +1,12 @@
+{
+    "errorMessages": {
+        "invalidCred": "Invalid credentials"
+    },
+    "dashboard": {
+        "dashboardTitle": "Dashboard",
+        "userDropdownAbout": "About",
+        "userDropdownSupport": "Support",
+        "userDropdownChangePass": "Change Password",
+        "userDropdownLogout": "Logout"
+    }
+}

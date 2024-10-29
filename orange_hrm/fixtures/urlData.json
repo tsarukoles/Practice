@@ -1,0 +1,4 @@
+{
+    "loginUrl": "/web/index.php/auth/login",
+    "candidateUrl": "/web/index.php/recruitment/addCandidate"
+}

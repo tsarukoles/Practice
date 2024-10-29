@@ -1,0 +1,26 @@
+{
+    "adminBaseUser": {
+        "username": "Admin",
+        "password": "admin123"
+    },
+    "adminUser": {
+        "username": "tsarukadmin",
+        "password": "orange123",
+        "employeeId": "1234321",
+        "firstName": "Oles",
+        "middleName": "Marcus",
+        "lastName": "Tsaruk",
+        "email": "tsaruktest@gmail.com",
+        "vacancy": "Senior QA Lead",
+        "contactNumber": "5551234567",
+        "filePath": "resume_file.pdf",
+        "keywords": "JavaScript, Playwright",
+        "date": "2024-10-28",
+        "notes": "Excellent candidate",
+        "checkbox": true
+    },
+    "invalidUser": {
+        "username": "invalidUser",
+        "password": "invalidPass"
+    }
+}
