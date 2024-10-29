@@ -1,4 +1,5 @@
 Automation Practice - Orange HRM End-to-End Tests
+
 This project is an automation testing framework for the Orange HRM application, using Playwright for end-to-end (E2E) testing. The tests are written to verify the functionality of the Orange HRM web application, including user login, recruitment processes, and other key features.
 
 1. Table of Contents
@@ -10,6 +11,7 @@ This project is an automation testing framework for the Orange HRM application, 
 7. Contributing
 
 Project Structure
+
 The project is organized as follows:
 
 Automation-Practice/
@@ -33,12 +35,16 @@ Automation-Practice/
 - .github/workflows/: Contains the CI configuration for running tests automatically via GitHub Actions.
 
 Getting Started
+
 Prerequisites
+
 To run the tests locally, ensure that you have the following installed:
 
 Node.js (version 18 or higher)
 npm (Node package manager)
+
 Setup
+
 1) Clone the repository:
 
 git clone https://github.com/yourusername/Automation-Practice.git
@@ -53,6 +59,7 @@ npm install
 npx playwright install --with-deps
 
 Running Tests
+
 To run the Playwright tests, use the following commands:
 
 Run all tests:
