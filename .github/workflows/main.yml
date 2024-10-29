@@ -21,21 +21,22 @@ jobs:
         with:
           node-version: '18'
 
+      # Navigate to the correct working directory for orange_hrm project
       - name: Install dependencies in orange_hrm
         run: npm install
-        working-directory: ./Automation-Practice/orange_hrm
+        working-directory: orange_hrm  # Set working directory to orange_hrm
 
       - name: Install Playwright Browsers in orange_hrm
         run: npx playwright install --with-deps
-        working-directory: ./Automation-Practice/orange_hrm
+        working-directory: orange_hrm
 
       - name: Run Playwright tests in orange_hrm
         run: npx playwright test
-        working-directory: ./Automation-Practice/orange_hrm
+        working-directory: orange_hrm
 
       - name: Upload Playwright report
         if: failure()
         uses: actions/upload-artifact@v3
         with:
           name: playwright-report
-          path: Automation-Practice/orange_hrm/playwright-report/
+          path: orange_hrm/playwright-report/
