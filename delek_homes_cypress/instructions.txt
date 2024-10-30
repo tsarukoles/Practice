@@ -1,0 +1,15 @@
+Automate the following test cases (you can find those tests in the delekHomes project on the http://qase.io  resource ):
+
+Should log in with your existing account as an admin (you can use your own user with any role)
+
+Should log out
+
+Should register a new account
+
+Should not register with an already existing email account
+
+Should not register without filling in required fields
+
+
+Please check the attachment, it’s the expected structure of the folders and files for this HW.
+Don’t forget to push your NEW folder to GitHub and drop a link in the #homework channel

@@ -1,4 +1,4 @@
-name: Playwright Tests for orange_hrm
+name: CI for Playwright and Cypress Tests
 
 on:
   push:
@@ -9,7 +9,8 @@ on:
       - main
 
 jobs:
-  test:
+  playwright-tests:
+    name: Playwright Tests for orange_hrm_playwright
     runs-on: ubuntu-latest
 
     steps:
@@ -21,21 +22,49 @@ jobs:
         with:
           node-version: '20'
 
-      - name: Install dependencies in orange_hrm
+      - name: Install dependencies in orange_hrm_playwright
         run: npm install
-        working-directory: orange_hrm
+        working-directory: orange_hrm_playwright
 
-      - name: Install Playwright Browsers in orange_hrm
+      - name: Install Playwright Browsers
         run: npx playwright install --with-deps
-        working-directory: orange_hrm
+        working-directory: orange_hrm_playwright
 
-      - name: Run Playwright tests in orange_hrm
+      - name: Run Playwright tests
         run: npx playwright test
-        working-directory: orange_hrm
+        working-directory: orange_hrm_playwright
 
       - name: Upload Playwright report
         if: failure()
         uses: actions/upload-artifact@v3
         with:
           name: playwright-report
-          path: orange_hrm/playwright-report/
+          path: orange_hrm_playwright/playwright-report/
+
+  cypress-tests:
+    name: Cypress Tests for delek_homes_cypress
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies in delek_homes_cypress
+        run: npm install
+        working-directory: delek_homes_cypress
+
+      - name: Run Cypress tests
+        run: npx cypress run
+        working-directory: delek_homes_cypress
+
+      - name: Upload Cypress report
+        if: failure()
+        uses: actions/upload-artifact@v3
+        with:
+          name: cypress-report
+          path: delek_homes_cypress/cypress/report/

@@ -1,0 +1,6 @@
+{
+    "profileUrl": "dashboard/user/profile",
+    "registrationURL": "/auth/register",
+    "createNewListingUrl": "/dashboard/real-estate/new",
+    "estateObjectsUrl": "dashboard/real-estate/list"
+}

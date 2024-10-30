@@ -1,0 +1,530 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\tsaru\\Desktop\\Practice-Projects\\Practice\\orange_hrm_playwright\\playwright.config.js",
+    "rootDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/orange_hrm_playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 8
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "dot",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/orange_hrm_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/orange_hrm_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/orange_hrm_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/orange_hrm_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/orange_hrm_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 1,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/orange_hrm_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.48.2",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "candidates.create.spec.js",
+      "file": "candidates.create.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Create candidate",
+          "file": "candidates.create.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should successfully create candidate",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 10513,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:24.279Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5eb7a5aa0a691e1a437-cfedac5e2d2e9efc7ce0",
+              "file": "candidates.create.spec.js",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "should successfully create candidate",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 9211,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:24.253Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5eb7a5aa0a691e1a437-265c08759911a2a5690a",
+              "file": "candidates.create.spec.js",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "should successfully create candidate",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 6,
+                      "status": "passed",
+                      "duration": 10415,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:24.291Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b5eb7a5aa0a691e1a437-990aecbd7df29500d817",
+              "file": "candidates.create.spec.js",
+              "line": 9,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "login.spec.js",
+      "file": "login.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Login",
+          "file": "login.spec.js",
+          "line": 6,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should login successfully with admin user credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 7802,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:24.265Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-9868123f130cece665c9",
+              "file": "login.spec.js",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "should show error for invalid login attempt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 3051,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:33.888Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-bd908cbc3083d760c6d3",
+              "file": "login.spec.js",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "should login successfully with admin user credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 4686,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:24.294Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-29bf48770396d6b137a3",
+              "file": "login.spec.js",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "should show error for invalid login attempt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 4146,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:31.906Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-6c9cb77cd2200cd6ef3a",
+              "file": "login.spec.js",
+              "line": 17,
+              "column": 3
+            },
+            {
+              "title": "should login successfully with admin user credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "passed",
+                      "duration": 6445,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:24.298Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-d9e00bcbf1c4305a6bed",
+              "file": "login.spec.js",
+              "line": 8,
+              "column": 3
+            },
+            {
+              "title": "should show error for invalid login attempt",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 7,
+                      "status": "passed",
+                      "duration": 3590,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:32.772Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "badc1754af1944f68b2b-5f729b6e6c8849b7c985",
+              "file": "login.spec.js",
+              "line": 17,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "logout.spec.js",
+      "file": "logout.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Logout",
+          "file": "logout.spec.js",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should logout successfully with admin user credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 8688,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:24.292Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b7773ae6a53e211c23cf-2ce43318d58d53556e3c",
+              "file": "logout.spec.js",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "should logout successfully with admin user credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 5873,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:24.298Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b7773ae6a53e211c23cf-d3a77b2012d9343aa419",
+              "file": "logout.spec.js",
+              "line": 9,
+              "column": 3
+            },
+            {
+              "title": "should logout successfully with admin user credentials",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [
+                    {
+                      "workerIndex": 8,
+                      "status": "passed",
+                      "duration": 5293,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-10-30T15:26:52.387Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "b7773ae6a53e211c23cf-4452b0ff2ccb01e9fa26",
+              "file": "logout.spec.js",
+              "line": 9,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-10-30T15:26:23.007Z",
+    "duration": 34783.056000000004,
+    "expected": 12,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

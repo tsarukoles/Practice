@@ -1,0 +1,24 @@
+{
+    "validationMessage": "Input data validation failed",
+    "firstNameError": "First name required",
+    "lastNameError": "Last name required",
+    "emailError": "Email is required",
+    "passwordError": "Password is required",
+
+    "keyword": "Asticouiui",
+    "title": "My beautiful Acadia",
+    "price": "1234321",
+    "realtor": "Realtor: Oles Tsaruk",
+    "address": "1 Main",
+    "sqFeet": "3000",
+    "lotSize": "9",
+    "garage": "2",
+    "bedrooms": "4",
+    "bathrooms": "2",
+    "city": "Bar Harborrr",
+    "state": "State: ME",
+    "stateAbbreviation": "ME",
+    "zipCode": "43434",
+    "description": "Close to the Asticouiui!",
+    "priceValidation": "$ 1,234,321"
+}
