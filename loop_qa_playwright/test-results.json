@@ -1,0 +1,1543 @@
+{
+  "config": {
+    "configFile": "C:\\Users\\tsaru\\Desktop\\Practice-Projects\\Practice\\loop_qa_playwright\\playwright.config.js",
+    "rootDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 8
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        {
+          "open": "never"
+        }
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Microsoft Edge",
+        "name": "Microsoft Edge",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Google Chrome",
+        "name": "Google Chrome",
+        "testDir": "C:/Users/tsaru/Desktop/Practice-Projects/Practice/loop_qa_playwright/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.49.0",
+    "workers": 8,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "mobileApp\\mobileAppDone.spec.js",
+      "file": "mobileApp/mobileAppDone.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test case 6: Should verify \"App icon design\" in the \"Done\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 5588,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:38.611Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b460c9492de02e6cdef-3d2e97a5bfea1d3c8a60",
+          "file": "mobileApp/mobileAppDone.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 6: Should verify \"App icon design\" in the \"Done\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 1800,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:38.641Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b460c9492de02e6cdef-ac3d136e22d72f81bb6f",
+          "file": "mobileApp/mobileAppDone.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 6: Should verify \"App icon design\" in the \"Done\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "status": "passed",
+                  "duration": 2645,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:45.975Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b460c9492de02e6cdef-3bcb1a4e44df0bfd473e",
+          "file": "mobileApp/mobileAppDone.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 6: Should verify \"App icon design\" in the \"Done\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "status": "passed",
+                  "duration": 2109,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:01.285Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b460c9492de02e6cdef-32c9868ee1fe6dc8569c",
+          "file": "mobileApp/mobileAppDone.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 6: Should verify \"App icon design\" in the \"Done\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 19,
+                  "status": "passed",
+                  "duration": 2803,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:06.168Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b460c9492de02e6cdef-443eabbf98af8ba2e38b",
+          "file": "mobileApp/mobileAppDone.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 6: Should verify \"App icon design\" in the \"Done\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 25,
+                  "status": "passed",
+                  "duration": 3326,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:06.631Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b460c9492de02e6cdef-89df81ae5b78fbbfa737",
+          "file": "mobileApp/mobileAppDone.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 6: Should verify \"App icon design\" in the \"Done\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 31,
+                  "status": "passed",
+                  "duration": 3113,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:12.682Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "6b460c9492de02e6cdef-25d56dfcae73e8c771f3",
+          "file": "mobileApp/mobileAppDone.spec.js",
+          "line": 17,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "mobileApp\\mobileAppInProgress.spec.js",
+      "file": "mobileApp/mobileAppInProgress.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test case 5: Should verify \"Offline mode\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 5415,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:38.582Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "466a6846be372b17b71b-b510ac805bc8627e694a",
+          "file": "mobileApp/mobileAppInProgress.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 5: Should verify \"Offline mode\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 1732,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:38.701Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "466a6846be372b17b71b-f6df3aeefb79c411fb90",
+          "file": "mobileApp/mobileAppInProgress.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 5: Should verify \"Offline mode\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "status": "passed",
+                  "duration": 3214,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:01.224Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "466a6846be372b17b71b-91aaf2c456eb30894d9a",
+          "file": "mobileApp/mobileAppInProgress.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 5: Should verify \"Offline mode\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "status": "passed",
+                  "duration": 2086,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:01.338Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "466a6846be372b17b71b-ff36bc6dffa2dcea1446",
+          "file": "mobileApp/mobileAppInProgress.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 5: Should verify \"Offline mode\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 20,
+                  "status": "passed",
+                  "duration": 2888,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:06.232Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "466a6846be372b17b71b-6cf905caf2a31a697d7f",
+          "file": "mobileApp/mobileAppInProgress.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 5: Should verify \"Offline mode\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 26,
+                  "status": "passed",
+                  "duration": 3479,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:06.757Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "466a6846be372b17b71b-f22a71f97ed1f2e3e243",
+          "file": "mobileApp/mobileAppInProgress.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 5: Should verify \"Offline mode\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 32,
+                  "status": "passed",
+                  "duration": 3145,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:12.706Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "466a6846be372b17b71b-324f39780cd581d18a03",
+          "file": "mobileApp/mobileAppInProgress.spec.js",
+          "line": 17,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "mobileApp\\mobileAppToDo.spec.js",
+      "file": "mobileApp/mobileAppToDo.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test case 4: Should verify \"Push notification system\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 5479,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:38.567Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "106368fcf679aec53c7f-a700ada2c5b422c26311",
+          "file": "mobileApp/mobileAppToDo.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 4: Should verify \"Push notification system\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 1923,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:42.681Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "106368fcf679aec53c7f-a92af293ebcb39facf91",
+          "file": "mobileApp/mobileAppToDo.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 4: Should verify \"Push notification system\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 12,
+                  "status": "passed",
+                  "duration": 3368,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:01.266Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "106368fcf679aec53c7f-5a87571d6b5552952e23",
+          "file": "mobileApp/mobileAppToDo.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 4: Should verify \"Push notification system\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "status": "passed",
+                  "duration": 1979,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:01.301Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "106368fcf679aec53c7f-7b42c7b31de448f947ff",
+          "file": "mobileApp/mobileAppToDo.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 4: Should verify \"Push notification system\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 21,
+                  "status": "passed",
+                  "duration": 3440,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:06.287Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "106368fcf679aec53c7f-0642dc0141298cca4ee7",
+          "file": "mobileApp/mobileAppToDo.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 4: Should verify \"Push notification system\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 27,
+                  "status": "passed",
+                  "duration": 3451,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:11.251Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "106368fcf679aec53c7f-5116d010b0f0ed9508fd",
+          "file": "mobileApp/mobileAppToDo.spec.js",
+          "line": 17,
+          "column": 1
+        },
+        {
+          "title": "Test case 4: Should verify \"Push notification system\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 33,
+                  "status": "passed",
+                  "duration": 2495,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:17.565Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "106368fcf679aec53c7f-b28e34984b44c55a6210",
+          "file": "mobileApp/mobileAppToDo.spec.js",
+          "line": 17,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "webApp\\webAppInProgress.spec.js",
+      "file": "webApp/webAppInProgress.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test case 3: Should verify \"Design system updates\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 5459,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:38.569Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbe20fef0bd44b15286e-8d0759e6651717319aee",
+          "file": "webApp/webAppInProgress.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 3: Should verify \"Design system updates\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 1820,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:43.204Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbe20fef0bd44b15286e-2b18206c1d4e8075cb09",
+          "file": "webApp/webAppInProgress.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 3: Should verify \"Design system updates\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 16,
+                  "status": "passed",
+                  "duration": 3291,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:01.360Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbe20fef0bd44b15286e-1561a1236ef7757b8cfe",
+          "file": "webApp/webAppInProgress.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 3: Should verify \"Design system updates\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 14,
+                  "status": "passed",
+                  "duration": 1179,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:03.506Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbe20fef0bd44b15286e-839b8ee1b8fd4ee288f3",
+          "file": "webApp/webAppInProgress.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 3: Should verify \"Design system updates\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 22,
+                  "status": "passed",
+                  "duration": 3631,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:06.310Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbe20fef0bd44b15286e-ff24e655506874af7e38",
+          "file": "webApp/webAppInProgress.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 3: Should verify \"Design system updates\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 28,
+                  "status": "passed",
+                  "duration": 3222,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:11.353Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbe20fef0bd44b15286e-2865f976e0913111d999",
+          "file": "webApp/webAppInProgress.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 3: Should verify \"Design system updates\" in the \"In Progress\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 34,
+                  "status": "passed",
+                  "duration": 2552,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:17.607Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "dbe20fef0bd44b15286e-9ded80dfddb3c85017d1",
+          "file": "webApp/webAppInProgress.spec.js",
+          "line": 14,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "webApp\\webAppToDo.spec.js",
+      "file": "webApp/webAppToDo.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Test case 1: Should verify \"Implement user authentication\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 5625,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:38.610Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-cf48b3ca7168ff28b504",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 2: Should verify \"Fix navigation bug\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 5355,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:38.687Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-b14adf57a93c1621c898",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "Test case 1: Should verify \"Implement user authentication\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "passed",
+                  "duration": 2024,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:45.929Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-cd4c6e465d707d8e0c24",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 2: Should verify \"Fix navigation bug\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "firefox",
+              "projectName": "firefox",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "status": "passed",
+                  "duration": 2369,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:22:45.942Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-0d92565895314c385aee",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "Test case 1: Should verify \"Implement user authentication\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 17,
+                  "status": "passed",
+                  "duration": 3400,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:01.370Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-8b741b5052886dc13c3e",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 2: Should verify \"Fix navigation bug\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "webkit",
+              "projectName": "webkit",
+              "results": [
+                {
+                  "workerIndex": 18,
+                  "status": "passed",
+                  "duration": 2461,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:02.562Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-4f8778da629daf901d08",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "Test case 1: Should verify \"Implement user authentication\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 13,
+                  "status": "passed",
+                  "duration": 1097,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:03.630Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-f2f6865d9ea5b0f4bf47",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 2: Should verify \"Fix navigation bug\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Chrome",
+              "projectName": "Mobile Chrome",
+              "results": [
+                {
+                  "workerIndex": 15,
+                  "status": "passed",
+                  "duration": 1037,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:03.715Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-425cf05cbb59bd6a3a9c",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "Test case 1: Should verify \"Implement user authentication\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 23,
+                  "status": "passed",
+                  "duration": 3649,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:06.332Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-21c4fa2ee0c43871f677",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 2: Should verify \"Fix navigation bug\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Mobile Safari",
+              "projectName": "Mobile Safari",
+              "results": [
+                {
+                  "workerIndex": 24,
+                  "status": "passed",
+                  "duration": 3051,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:06.495Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-5eb64df8d6a3cc9c4beb",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "Test case 1: Should verify \"Implement user authentication\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 29,
+                  "status": "passed",
+                  "duration": 3221,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:12.378Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-0706c02775e0c4335fda",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 2: Should verify \"Fix navigation bug\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 30,
+                  "status": "passed",
+                  "duration": 3210,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:12.412Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-2ed36d7a6fed84b9c5ad",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 24,
+          "column": 1
+        },
+        {
+          "title": "Test case 1: Should verify \"Implement user authentication\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 35,
+                  "status": "passed",
+                  "duration": 2447,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:21.353Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-989c95b41af58deea29a",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 14,
+          "column": 1
+        },
+        {
+          "title": "Test case 2: Should verify \"Fix navigation bug\" in the \"To Do\" column",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 36,
+                  "status": "passed",
+                  "duration": 2377,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-12-10T21:23:21.496Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "c73aa83f780e5471e5d0-2ef83856153e72ebf100",
+          "file": "webApp/webAppToDo.spec.js",
+          "line": 24,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-12-10T21:22:37.191Z",
+    "duration": 47187.38,
+    "expected": 42,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}

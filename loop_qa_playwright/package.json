@@ -1,0 +1,20 @@
+{
+  "name": "loop_qa_playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [
+    "Asana",
+    "LoopQA",
+    "Playwright",
+    "Test",
+    "Automation"
+  ],
+  "author": "Oles Tsaruk",
+  "license": "ISC",
+  "description": "LoopQA Technical Evaluation",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.10.1"
+  }
+}

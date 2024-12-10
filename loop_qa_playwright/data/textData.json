@@ -1,0 +1,28 @@
+{
+    "webApp": {
+      "webAppButton": "Web Application",
+      "inProgressHeader": "In Progress",
+      "designSystemUpdates": "Design system updates",
+      "designTag": "Design",
+      "toDoHeader": "To Do",
+      "implementUserAuth": "Implement user authentication",
+      "fixNavigationBug": "Fix navigation bug",
+      "featureTag": "Feature",
+      "highPriorityTag": "High Priority",
+      "bugTag": "Bug"
+    },
+
+    "mobileApp": {
+      "mobileAppButton": "Mobile Application",
+      "toDoHeader": "To Do",
+      "pushNotificationTask": "Push notification system",
+      "inProgressHeader": "In Progress",
+      "offlineModeTask": "Offline mode",
+      "featureTag": "Feature",
+      "highPriorityTag": "High Priority",
+      "doneHeader": "Done",
+      "appIconDesignTask": "App icon design",
+      "designTag": "Design"
+    }
+}
+  

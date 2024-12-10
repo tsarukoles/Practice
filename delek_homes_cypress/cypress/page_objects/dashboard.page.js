@@ -2,6 +2,7 @@ class DashboardPage {
 
     get roleLabel() {return cy.get('[href="/dashboard/user/account"] p')};
     get userName() {return cy.get("h6")};
+    get profileButtonWithIcon() {return cy.get('img[src="/content/images/listing-picturee9e58627-e5b5-4f1a-88da-8f40ff58c9d5.jpg"]').closest('button')};
     get profileButton() {return cy.get('button [data-testid="PersonIcon"]')};
     get dashboardUrl() {return cy.url()};
     get dashboardTitle() {return cy.title()};

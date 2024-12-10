@@ -1,0 +1,13 @@
+# Node modules directory
+node_modules/
+
+# Test results and reports
+/test-results/
+/playwright-report/
+/blob-report/
+
+/playwright/.cache/
+
+# Screenshots and result files
+/screenshots/
+results.xml

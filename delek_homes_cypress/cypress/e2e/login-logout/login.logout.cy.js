@@ -1,7 +1,6 @@
 import dashboardPage from "../../page_objects/dashboard.page";
 import credentials from '../../fixtures/user.credentials.json';
 import loginPage from "../../page_objects/login.page";
-import url from '../../fixtures/urls.json'
 
 describe("Login", () => {
   beforeEach(() => {
@@ -20,7 +19,7 @@ describe("Login", () => {
     loginPage.login(credentials.realtor.email, credentials.realtor.password);
     dashboardPage.roleLabel.should("contain", credentials.realtor.role);
     dashboardPage.userName.should("contain", credentials.realtor.fullName);
-    dashboardPage.profileButton.click();
+    dashboardPage.profileButtonWithIcon.click();
     cy.contains("Logout").click();
   });
 });
